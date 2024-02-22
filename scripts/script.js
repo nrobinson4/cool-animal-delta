@@ -11,9 +11,9 @@ $(function () {
     // console.log(userName);
     // console.log($('#userName').val().length);
     // console.log(getStringLength(userName));
-    //$("#nameOutput").append(
-      //"Greetings one they call " + userName + "!" + "<br/>"
-    //)
+    $("#nameOutput").append(
+      "Greetings one they call " + userName + "!" + "<br/>"
+    )
     ;
 
     //nameLength = getStringLength(userName);
