@@ -22,13 +22,13 @@ $(function () {
 
     // console.log(reverseString(userName));
 
-    nameReverse = reverseString(userName);
+    //nameReverse = reverseString(userName);
     //nameMsg = "Your Name reversed letters is: ";
     //$("#nameOutput").append(nameMsg + nameReverse + "<br/>");
 
     console.log(thirdLetter(userName));
 
-    stringArrayPosition(userName);
+    //stringArrayPosition(userName);
 
     $("#btnSecretAlien").show();
     $("#btnAnimal").show();
@@ -73,20 +73,20 @@ $(function () {
     
   });
 
-  function getStringLength(stringVal) {
-    var stringLength = stringVal.length;
-    return stringLength;
+  //function getStringLength(stringVal) {
+    //var stringLength = stringVal.length;
+    //return stringLength;
+  //}
+
+  //function reverseString(stringVal) {
+    //var revString = stringVal.split("").reverse().join("");
+    //return revString;
   }
 
-  function reverseString(stringVal) {
-    var revString = stringVal.split("").reverse().join("");
-    return revString;
-  }
-
-  function thirdLetter(stringVal) {
-    return thirdString;
-    var thirdString = stringVal[2];
-  }
+  //function thirdLetter(stringVal) {
+    //return thirdString;
+    //var thirdString = stringVal[2];
+  //}
 
   function clearElement(elementId, elementType) {
     if (elementType == "html") {
@@ -98,9 +98,9 @@ $(function () {
     }
   }
 
-  function stringArrayPosition(stringVal) {
-    for (i = 0; i < stringVal.length; i++) {
-      console.log(i + " " + stringVal[i]);
-    }
-  }
+  //function stringArrayPosition(stringVal) {
+    //for (i = 0; i < stringVal.length; i++) {
+     // console.log(i + " " + stringVal[i]);
+    //}
+  ///}
 });
