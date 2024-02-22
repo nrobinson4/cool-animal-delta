@@ -11,19 +11,20 @@ $(function () {
     // console.log(userName);
     // console.log($('#userName').val().length);
     // console.log(getStringLength(userName));
-    $("#nameOutput").append(
-      "Greetings one they call " + userName + "!" + "<br/>"
-    );
+    //$("#nameOutput").append(
+      //"Greetings one they call " + userName + "!" + "<br/>"
+    //)
+    ;
 
-    nameLength = getStringLength(userName);
-    nameMsg = "The Length of your name is: ";
-    $("#nameOutput").append(nameMsg + nameLength + "<br/>");
+    //nameLength = getStringLength(userName);
+   // nameMsg = "The Length of your name is: ";
+    //$("#nameOutput").append(nameMsg + nameLength + "<br/>");
 
     // console.log(reverseString(userName));
 
     nameReverse = reverseString(userName);
-    nameMsg = "Your Name reversed letters is: ";
-    $("#nameOutput").append(nameMsg + nameReverse + "<br/>");
+    //nameMsg = "Your Name reversed letters is: ";
+    //$("#nameOutput").append(nameMsg + nameReverse + "<br/>");
 
     console.log(thirdLetter(userName));
 
